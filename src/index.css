@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-inter: "Inter", sans-serif;
+
+  --color-primary: #031d13; /* obsidian green */
+  --color-secondary: #0a2f1e; /* deeper card green */
+  --color-card-light: #062c1d;
+  --color-accent: #eab308; /* vibrant yellow-500 */
+  --color-gold: #eab308;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
